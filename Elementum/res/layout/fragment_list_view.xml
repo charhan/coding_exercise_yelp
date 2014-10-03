@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <ListView 
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        >
+    
+    </ListView>
+    <LinearLayout 
+              android:id="@+id/ll_map_controls"
+              android:layout_height="40dp"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:background="#3b3b3b"
+              android:layout_alignParentBottom="true">
+              
+               <TextView 
+                  android:id="@+id/tv_list_filters_distance"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight = "1"
+                  android:text="@string/sort_distance"
+                  android:textColor="#FFFFFF"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  />
+               
+                <TextView 
+                  android:id="@+id/tv_list_filters_rating"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight = "1"
+                  android:text="@string/sort_rating"
+                  android:textColor="#FFFFFF"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_toRightOf="@id/tv_list_filters_distance"/>
+                
+
+                 
+          </LinearLayout>
+</RelativeLayout>

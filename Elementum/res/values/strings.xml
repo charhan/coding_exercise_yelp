@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yelp Project</string>
+    <string name="search_for">Search</string>
+    <string name="sort_rating">Sort by Rating</string>
+    <string name="sort_distance">Sort by Distance</string>
+</resources>
